@@ -1,3 +1,5 @@
+npm install
+
 rm -rf out
 
 fable -t library

@@ -1,0 +1,9 @@
+{
+  "name": "fable-project-ref-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "fable-core": "^0.2.3"
+  }
+}

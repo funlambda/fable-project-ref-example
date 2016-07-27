@@ -1,0 +1,21 @@
+{
+  "module": "commonjs",
+  "targets": {
+    "library": {
+      "outDir": "out/library",
+      "projFile": "Test/Library/Library.fsproj"
+    },
+    "another": {
+      "outDir": "out/library-another",
+      "projFile": "Test/Library.Another/Library.Another.fsproj"
+    },
+    "main": {
+      "outDir": "out/main",
+      "projFile": "Test/Main/Main.fsproj",
+      "refs": {
+        "Library": "../library",
+        "Library.Another": "../library-another"
+      }
+    }
+  }
+}
